@@ -55,7 +55,7 @@ public class Main {
         }
     }
 
-    public static void initializeGame() {
+    private static void initializeGame() {
         System.out.println("Pick one of 3 projects:");
     }
 
