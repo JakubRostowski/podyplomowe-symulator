@@ -1,16 +1,14 @@
 package edu.wsb.model;
 
-import java.sql.Time;
-
 public class Project {
-    String name;
-    int requiredHours;
-    String customer;
-    Time deadline;
-    double penalty;
-    double reward;
-    Time paymentDate;
-    Difficulty difficulty;
+    private String name;
+    private RequiredDays requiredDays;
+    private String customer;
+    private int deadline;
+    private double penalty;
+    private double reward;
+    private int paymentDate;
+    private Difficulty difficulty;
 
     public enum Difficulty {
         EASY, MEDIUM, HARD
