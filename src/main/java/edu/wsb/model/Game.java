@@ -12,6 +12,7 @@ public class Game {
     private double money;
     private List<Project> projects;
     private List<Employee> employees;
+    private int playerTime;
 
     public Game() {
         this.turn = 0;
@@ -20,8 +21,7 @@ public class Game {
         this.money = 50000;
         this.projects = new ArrayList<>();
         this.employees = new ArrayList<>();
-
-
+        this.playerTime = 8;
     }
 
     public void increaseTurnAndDay() {
