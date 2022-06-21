@@ -27,8 +27,7 @@ public class Main {
                     + "\n fire - fire an employee"
                     + "\n zus - spend a time on a zus");
 
-
-            validateAnswer();
+            processAnswer();
 
             if (game.getTurn() == 5) {
                 isOngoing = false;
@@ -36,7 +35,7 @@ public class Main {
         }
     }
 
-    private static void validateAnswer() {
+    private static void processAnswer() {
         boolean isChecking = true;
         while (isChecking) {
             String action = scanner.nextLine().toLowerCase();
